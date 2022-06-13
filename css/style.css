@@ -1,0 +1,127 @@
+.wraaper{ /* TODO O FUNDO DA PAGINA*//*mudar todo o tamanho para VH e VW e a fonte*/
+    width: 100%;
+    height: 100%;  
+    top: 0%;
+    left: 0%;
+    background-image: url("teste.jpg");
+    background-size: contain;
+    position: absolute;
+}
+.titulo{ /* TITULO DA PAGINA*/
+    width: 90%;
+    height: 15%;
+    top:0%;
+    left:10%;
+    position: relative;
+    /*border-bottom: 1px solid #000;*/
+    display: flex;
+    justify-content: center;
+
+ 
+}
+#fonte{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 75px;
+    color: #ffff;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000 ;
+}
+.logo{
+    width:10%;
+    height:15%;
+    top:0%;
+    left:0%;
+    position: absolute;
+    /*border-bottom: 1px solid #000;
+    border-right: 1px solid #000;*/
+    
+}
+.guia{
+    width: 10%;
+    height: 75%;
+    top: 0%;
+    left: 0%;
+    position: relative;
+    /*border-right: 1px solid #000;*/
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.349);
+    border-radius: 30%;
+}
+#guia1{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-indent: 40px;
+   margin-left: 15%;
+   margin-right: 26%;
+   display: block;
+   text-align: justify;
+}
+#guia2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lateral{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  width: 50%;
+  height: 40%;
+  left: 25%;
+  top: 10%;
+  position: relative;
+    
+}
+.img{
+    width: 13%;
+    height: 20%;
+    display: block;
+    top: 10%;
+    right: 12%;
+    /*background-image: url("rio-ribeira.png");*/
+    background-size: contain;
+    position: absolute;
+    text-align: left;
+}
+#tabela{
+    width: 160px;
+    height: 110px;
+    background-color: #59cbdf00;
+}
+#tabela2{
+    width: 5px;
+    height: 5px;
+    background-color: #59cbdf;
+}
+.corpo{
+    width: 89.9%;
+    height: 82%;
+    right: 0%;
+    top: 15.2%;
+    position: absolute;
+    text-align: center;
+}
+.grafico{
+    width: 65%;
+    height: 65%;
+    display: block;
+    bottom: 15%;
+    left: 7%;
+    background-image: url("Grafico2.PNG");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.descricao{/*COLOCAR UM DIV*/
+    width: 45%;
+    height: 5%;
+    left: 5%;
+    top: 42%;
+    position: relative;
+    text-align: left;
+}
+.foot{
+    width: 100%;
+    height: 5%;
+    bottom: 0%;
+    left: 0%;
+    position: absolute;
+    /*border-top: 1px solid #000;*/
+   
+}
